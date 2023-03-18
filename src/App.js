@@ -1,4 +1,4 @@
-import '/App.css';
+import { Button } from './components/basic_component/button';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
         <p>
           GtiHub Test
         </p>
+        <Button title='推文' />
       </header>
     </div>
   );
