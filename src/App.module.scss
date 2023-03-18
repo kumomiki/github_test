@@ -1,0 +1,28 @@
+.buttonOrange{
+  margin: 5px 0;
+  background-color: #FF6600;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 30px;
+  color: white;
+
+  &:hover{
+    border: 3px solid black;
+  }
+}
+.buttonWhite{
+  margin: 5px 0;
+  background-color: #FFF;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border:2px solid #FF6600;
+  border-radius: 30px;
+  color: #FF6600;
+
+  &:hover{
+    border: 3px solid #FF6600;
+  }
+}
