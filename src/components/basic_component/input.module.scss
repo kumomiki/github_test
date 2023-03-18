@@ -1,5 +1,16 @@
 .inputContainer {
   width: 100%;
+  position: relative;
+  outline: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+
+  .inputTitle {
+    position: absolute;
+    font-size: 0.8rem;
+    margin: 5px 0 0 12px;
+
+  }
 
   input[type="text"] {
     -webkit-appearance: none;
@@ -8,6 +19,12 @@
     background: #f5f8fa;
     border-radius: 2px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding-left: 10px;
+
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid gray;
+    }
   }
 }
