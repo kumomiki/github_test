@@ -2,6 +2,7 @@ import { Button } from './components/basic_component/button';
 import style from 'src/App.module.scss'
 import { Input } from './components/basic_component/input';
 import { Hello } from './components/basic_component/Hello'
+import Form from './components/basic_component/Form';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Button title='推文' className={style.buttonWhite}/>
         <Input />
         <Hello />
+        <Form />
         </div>
       </header>
     </div>
