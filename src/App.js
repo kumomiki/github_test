@@ -14,7 +14,8 @@ function App() {
         </p>
         <Button title='推文' className={style.buttonOrange}/>
         <Button title='推文' className={style.buttonWhite}/>
-        <Input />
+        <Input title='標題' />
+        <Input title='帳號' />
         <Hello />
         <Form />
         </div>
